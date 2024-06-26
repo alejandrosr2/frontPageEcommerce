@@ -7,8 +7,8 @@ import { CartContext } from "@/context/CartContext";
 
 const menu = [
     { href: "/", label: "Home" },
-    { href: "/shop", label: "Shop" },
-    { href: "/about", label: "About" },
+    { href: "/shop", label: "Tienda" },
+    { href: "/about", label: "Sobre mí" },
     { href: "/blog", label: "Blogs" },
 ];
 

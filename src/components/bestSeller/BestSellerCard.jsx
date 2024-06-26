@@ -39,13 +39,15 @@ const BestSellerCard = () => {
     const { addToCart } = useContext(CartContext);
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, amount: 0.1 });
-    
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);  // 768px es un umbral común para dispositivos móviles
+
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);  
 
     useEffect(() => {
         function handleResize() {
             setIsMobile(window.innerWidth < 768);
         }
+
+        handleResize();
 
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);

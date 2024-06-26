@@ -23,7 +23,7 @@ const DropDown = () => {
     return (
         <li className="relative cursor-pointer group">
             <a href="" className="flex items-center gap-[2px] font-semibold text-zinc-500 dark:hover:text-white py-2 hover:scale-105 duration-300">
-                Quick links
+                Interes
                 <span>
                     <ChevronDown className="group-hover:rotate-180 duration-300"/>
                 </span>
