@@ -73,7 +73,7 @@ const CardHero = () => {
                                 {item.subtitle}
                             </motion.h1>
                             <motion.h1
-                                className="text-5xl sm:text-6xl lg:text-7xl font-bold"
+                                className="text-3xl sm:text-6xl lg:text-7xl font-bold"
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1 }}
                                 transition={{ duration: 1, delay: 1 }}
@@ -81,7 +81,7 @@ const CardHero = () => {
                                 {item.title}
                             </motion.h1>
                             <motion.h1
-                                className="drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)] text-5xl uppercase text-white dark:text-zinc-200/80 sm:text-[80px] md:text-[100px] xl:text-[150px] font-bold"
+                                className="drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]  uppercase text-white dark:text-zinc-200/80 text-4xl md:py-12 sm:text-[80px] lg:text-[100px] xl:text-[150px] font-bold"
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1 }}
                                 transition={{ duration: 1, delay: 1.5 }}
@@ -104,7 +104,7 @@ const CardHero = () => {
                         >
                             <img
                                 src={item.img}
-                                className="w-[350px] h-[300px] sm:w-[350px] sm:h-[450px] sm:scale-105 lg:scale-120 object-contain mx-auto drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)] relative"
+                                className="w-[200px] h-[300px] sm:w-[350px] sm:h-[450px] sm:scale-105 lg:scale-120 object-contain mx-auto drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)] relative"
                                 alt={item.title}
                             />
                         </motion.div>

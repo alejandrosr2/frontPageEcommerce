@@ -12,7 +12,7 @@ const SmallCard = ({text, bgGradient, image, width, bottom, right, bgBtn, textCo
                     <GenericBtn text="Buscar" textColor={textColorBtn} bg={bgBtn}/>
                 </div>
             </div>
-            <img src={image} alt="" className={`${width} absolute ${bottom} ${right} drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]`} />
+            <img src={image} alt="" className={`${width} absolute ${bottom} ${right} drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)] -z-40`} />
         </div>
     )
 }
